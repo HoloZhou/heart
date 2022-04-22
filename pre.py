@@ -4,7 +4,7 @@ Created on Fri Apr 22 20:14:55 2022
 
 @author: Zhou N
 """
-
+import tensorflow
 import numpy as np 
 import pandas as pd 
 from tensorflow.keras.models import load_model
