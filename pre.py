@@ -4,14 +4,15 @@ Created on Fri Apr 22 20:14:55 2022
 
 @author: Zhou N
 """
-import tensorflow
+import tensorflow as tf
 import numpy as np 
 import pandas as pd 
 from tensorflow.keras.models import load_model
-ann = load_model('C:\\Myfiles\\heart\\heart\\heart.h5')
+
+ann = tf.keras.models.load_model('heart.h5') 
+
 import streamlit as st
-import pip
-pip.main(["install", "tensorflow"])
+
 
 #加标题
 st.set_page_config(layout="wide")
