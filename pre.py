@@ -10,6 +10,8 @@ import pandas as pd
 from tensorflow.keras.models import load_model
 ann = load_model('C:\\Myfiles\\heart\\heart\\heart.h5')
 import streamlit as st
+import pip
+pip.main(["install", "tensorflow"])
 
 #加标题
 st.set_page_config(layout="wide")
