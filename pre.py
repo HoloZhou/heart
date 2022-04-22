@@ -9,6 +9,8 @@ import numpy as np
 import pandas as pd 
 
 ann = tf.keras.models.load_model('heart.h5') 
+import pip
+pip.main(["install", "tensorflow"])
 
 import streamlit as st
 
